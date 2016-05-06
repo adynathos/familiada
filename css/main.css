@@ -1,0 +1,54 @@
+
+body
+{
+	background-color: black;
+	color: yellow;
+	// font-family: 'LCDBOLD' !important;
+	font-family: 'familiada';
+}
+
+div#tournament
+{
+	text-align: center;
+	margin: 100px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+div.errors
+{
+	text-align: center;
+	font-size: 60pt;
+	margin: 10px;
+	margin-bottom: 0px;
+	line-height: 140%;
+}
+
+div#lefterrors
+{
+	float: left;
+}
+
+div#righterrors
+{
+	float: right;
+}
+
+span#question
+{
+	font-size: 30pt;
+	line-height: 120%;
+}
+
+ul#answers
+{
+	list-style-type: decimal;
+	margin: 10pt;
+}
+
+ul#answers *
+{
+	font-size: 25pt;
+	padding: 15px;
+}
+
