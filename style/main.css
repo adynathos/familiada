@@ -1,10 +1,16 @@
 
+@font-face {
+	font-family: familiada;
+	src: url(../font/familiada.woff);
+}
+
 body
 {
 	background-color: black;
 	color: yellow;
-	// font-family: 'LCDBOLD' !important;
+
 	font-family: 'familiada';
+	text-transform: uppercase;
 }
 
 div#tournament
@@ -18,10 +24,10 @@ div#tournament
 div.errors
 {
 	text-align: center;
-	font-size: 60pt;
+	font-size: 8em;
 	margin: 10px;
 	margin-bottom: 0px;
-	line-height: 140%;
+	line-height: 120%;
 }
 
 div#lefterrors
@@ -36,7 +42,7 @@ div#righterrors
 
 span#question
 {
-	font-size: 30pt;
+	font-size: 3em;
 	line-height: 120%;
 }
 
@@ -48,7 +54,7 @@ ul#answers
 
 ul#answers *
 {
-	font-size: 25pt;
+	font-size: 3em;
 	padding: 15px;
 }
 
