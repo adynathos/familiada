@@ -1,0 +1,19 @@
+
+## Run
+
+To run, open the file `index.html` in browser. (or host the directory in a web server)
+
+To view question list, open file `questions.html`.
+
+
+
+## Edit the questions
+
+Edit the file `questions.js`, which contains the list of questions in the following format:
+
+```
+{
+	question: "Najwybitniejszy fizyk/mat XX w.?",
+	answers: ['Hilbert', 'Dirac', 'Ramanujan', 'Einstein', 'Feynaman']
+},
+```
