@@ -10,7 +10,7 @@ body
 	color: yellow;
 
 	font-family: 'familiada';
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 div#tournament
